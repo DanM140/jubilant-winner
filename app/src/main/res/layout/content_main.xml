@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <ToggleButton
+        android:id="@+id/MainFunnybtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/category_toggle"
+        android:checked="true"
+        android:onClick="mainFunnyClicked"
+        android:textColor="@color/white"
+        android:textOff="Funny"
+        android:textOn="Funny"
+        app:layout_constraintEnd_toStartOf="@+id/MainSeriousbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/MainSeriousbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/category_toggle"
+        android:onClick="mainSeriousClicked"
+        android:textColor="@color/white"
+        android:textOff="Serious"
+        android:textOn="Serious"
+        app:layout_constraintBottom_toBottomOf="@+id/MainFunnybtn"
+        app:layout_constraintEnd_toStartOf="@+id/MainCrazybtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/MainFunnybtn"
+        app:layout_constraintTop_toTopOf="@+id/MainFunnybtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ToggleButton
+        android:id="@+id/MainCrazybtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/category_toggle"
+        android:onClick="mainCrazyClicked"
+        android:textColor="@color/white"
+        android:textOff="Crazy"
+        android:textOn="Crazy"
+        app:layout_constraintBottom_toBottomOf="@+id/MainSeriousbtn"
+        app:layout_constraintEnd_toStartOf="@+id/MainPopularbtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/MainSeriousbtn"
+        app:layout_constraintTop_toTopOf="@+id/MainSeriousbtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ToggleButton
+        android:id="@+id/MainPopularbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/category_toggle"
+        android:onClick="mainPopularClicked"
+        android:textColor="@color/white"
+        android:textOff="Popular"
+        android:textOn="Popular"
+        app:layout_constraintBottom_toBottomOf="@+id/MainCrazybtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/MainCrazybtn"
+        app:layout_constraintTop_toTopOf="@+id/MainCrazybtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/thoughtListView"
+        android:layout_width="394dp"
+        android:layout_height="596dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainFunnybtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

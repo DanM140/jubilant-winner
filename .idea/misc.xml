@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/activity_add_thought.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/activity_comments.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/activity_create_user.xml" value="0.2197452229299363" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/activity_login.xml" value="0.1638655462184874" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/comment_list_view.xml" value="0.2926829268292683" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/content_main.xml" value="0.2171875" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/layout/thought_list_view.xml" value="0.29411764705882354" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/RNDM/app/src/main/res/menu/menu.xml" value="0.2171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
